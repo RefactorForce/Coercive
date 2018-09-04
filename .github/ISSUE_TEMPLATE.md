@@ -1,46 +1,65 @@
-#New analyzer:
+# Analyzer Request - NAME
 
-Input your analyzer description.
+Describe the requested and/or suggested analyzer in place of this text.
 
-Before:
-
-````csharp
-//your code that triggers the diagnostic
-````
-
-After:
+## Trigger
 
 ````csharp
-//your code after the fix has been applied
+
+	// The code that should trigger the analyzer should be added in place of this text.
+
 ````
 
-You can add more information here, e.g. conditions under which a diagnostic should not trigger, etc.
+Explain the trigger in more detail in place of this text.
 
-Diagnostic Id: `CC0000` (take a number and update the [wiki](https://github.com/code-cracker/code-cracker/wiki/DiagnosticIds))
-Category: `<some category>` (see [supported categories](https://github.com/code-cracker/code-cracker/blob/master/src/Common/CodeCracker.Common/SupportedCategories.cs) and their [descriptions](https://github.com/code-cracker/code-cracker/issues/97))
-Severity: `Hidden | Info | Warning | Error` (see the [descriptions](https://github.com/code-cracker/code-cracker/#severity-levels))
-
-#Bug
-
-Input your bug description. Make sure you describe the steps to reproduce,
-that you are working with the latest version, and the issue has not been reported yet.
-
-Example: (don't use your project code, use a sample that anyone could use to verify the bug,
-so, for example,
-don't use classes that are not part of the BCL or declared on your sample.)
+## Reaction
 
 ````csharp
-//the code that reproduces the bug
+
+	// The code that should be generated as a result applying the refactoring provided by the new analyzer should be added in place of this text.
+
 ````
 
-Current output after fix applied (if it is a code fix bug):
+Explain the reaction in more detail in place of this text.
+
+## Supplemental Information
+
+More information may be added in place of this text, such as conditions under which a refactoring should not be suggested, et cetera.
+
+=== OR ===
+
+# Bug Report - CODE
+
+Describe the bug and/or perceived incorrect reaction by an analyzer in place of this text.
+
+## Trigger
 
 ````csharp
-//code fixed incorrectly
+
+	// The code that should trigger the analyzer bug should be added in place of this text.
+
 ````
 
-Expected output after fix applied (if it is a code fix bug):
+Explain the trigger in more detail in place of this text.
+
+## Expected Reaction
 
 ````csharp
-//code fixed incorrectly
+
+	// The code that should be generated as a result applying the refactoring provided by mentioned analyzer should be added in place of this text.
+
 ````
+
+## Experienced Reaction
+
+````csharp
+
+	// The code that should be generated as a result of attempting to apply the refactoring provided by mentioned analyzer should be added in place of this text.
+
+````
+
+Explain the reaction in more detail in place of this text.
+
+## Supplemental Information
+
+More information may be added in place of this text, such as relevant conditions under which a the mentioned analyzer does not present a bug, et cetera.
