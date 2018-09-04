@@ -21,10 +21,18 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CodeCracker.VisualBasic.Tes
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E1B8ADBF-3442-4EF3-8C6B-146B576340E9}"
 	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitHub Files", "GitHub Files", "{84BE1BE7-7686-40C9-B5B5-CDCD743834ED}"
+	ProjectSection(SolutionItems) = preProject
+		.github\ISSUE_TEMPLATE.md = .github\ISSUE_TEMPLATE.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository Configuration", "Repository Configuration", "{7D8C8B66-9EA3-4D87-AA97-4A06E593239F}"
+	ProjectSection(SolutionItems) = preProject
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
-		.github\ISSUE_TEMPLATE.md = .github\ISSUE_TEMPLATE.md
-		README.md = README.md
 	EndProjectSection
 EndProject
 Global
@@ -96,6 +104,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84BE1BE7-7686-40C9-B5B5-CDCD743834ED} = {E1B8ADBF-3442-4EF3-8C6B-146B576340E9}
+		{7D8C8B66-9EA3-4D87-AA97-4A06E593239F} = {E1B8ADBF-3442-4EF3-8C6B-146B576340E9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF50C6AB-1421-41AE-8CB3-927AB24A69EA}
