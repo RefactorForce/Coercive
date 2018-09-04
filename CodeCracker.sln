@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCracker.Common", "src\Common\CodeCracker.Common\CodeCracker.Common.csproj", "{753D4757-FCBA-43BA-B1BE-89201ACDA192}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeCracker", "CodeCracker\CodeCracker.csproj", "{753D4757-FCBA-43BA-B1BE-89201ACDA192}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCracker.CSharp", "src\CSharp\CodeCracker\CodeCracker.CSharp.csproj", "{FF1097FB-A890-461B-979E-064697891B96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeCracker.CSharp", "CodeCracker.CSharp\CodeCracker.CSharp.csproj", "{FF1097FB-A890-461B-979E-064697891B96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCracker.CSharp.Vsix", "src\CSharp\CodeCracker.Vsix\CodeCracker.CSharp.Vsix.csproj", "{6BAC4057-7239-485E-A04B-02E687A83BAA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCracker.CSharp.Vsix", "CodeCracker.CSharp.Vsix\CodeCracker.CSharp.Vsix.csproj", "{6BAC4057-7239-485E-A04B-02E687A83BAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCracker.CSharp.Test", "test\CSharp\CodeCracker.Test\CodeCracker.CSharp.Test.csproj", "{F7843158-046E-4B22-95D7-CAC7BB01283D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeCracker.CSharp.Test", "CodeCracker.CSharp.Test\CodeCracker.CSharp.Test.csproj", "{F7843158-046E-4B22-95D7-CAC7BB01283D}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CodeCracker.VisualBasic", "src\VisualBasic\CodeCracker\CodeCracker.VisualBasic.vbproj", "{41FA4971-D354-4647-A269-4A886DA2EF4C}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "CodeCracker.VisualBasic", "CodeCracker.VisualBasic\CodeCracker.VisualBasic.vbproj", "{41FA4971-D354-4647-A269-4A886DA2EF4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCracker.VisualBasic.Vsix", "src\VisualBasic\CodeCracker.Vsix\CodeCracker.VisualBasic.Vsix.csproj", "{B7B513B4-0317-4F32-B560-4BFC4FAEC239}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCracker.VisualBasic.Vsix", "CodeCracker.VisualBasic.Vsix\CodeCracker.VisualBasic.Vsix.csproj", "{B7B513B4-0317-4F32-B560-4BFC4FAEC239}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCracker.Common.Test", "test\Common\CodeCracker.Test.Common\CodeCracker.Common.Test.csproj", "{1CD1A3EE-28CE-404B-A59E-AEACF762D938}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeCracker.Test", "CodeCracker.Test\CodeCracker.Test.csproj", "{1CD1A3EE-28CE-404B-A59E-AEACF762D938}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CodeCracker.VisualBasic.Test", "test\VisualBasic\CodeCracker.Test\CodeCracker.VisualBasic.Test.vbproj", "{5399E7A8-F8F1-4F2E-A5D2-9C96F3DD2A2D}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "CodeCracker.VisualBasic.Test", "CodeCracker.VisualBasic.Test\CodeCracker.VisualBasic.Test.vbproj", "{5399E7A8-F8F1-4F2E-A5D2-9C96F3DD2A2D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E1B8ADBF-3442-4EF3-8C6B-146B576340E9}"
 	ProjectSection(SolutionItems) = preProject

@@ -8,6 +8,6 @@
     <PackageReference Include="Microsoft.CodeAnalysis" Version="2.9.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Common\CodeCracker.Common\CodeCracker.Common.csproj" />
+    <ProjectReference Include="..\CodeCracker\CodeCracker.csproj" />
   </ItemGroup>
 </Project>

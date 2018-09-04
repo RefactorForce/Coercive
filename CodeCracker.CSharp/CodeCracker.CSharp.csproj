@@ -5,6 +5,10 @@
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\Common\CodeCracker.Common\CodeCracker.Common.csproj" />
+    <PackageReference Include="Microsoft.CodeAnalysis" Version="2.9.0" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CodeCracker\CodeCracker.csproj" />
   </ItemGroup>
 </Project>
