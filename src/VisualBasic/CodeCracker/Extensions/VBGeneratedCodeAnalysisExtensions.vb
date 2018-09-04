@@ -3,6 +3,7 @@ Imports Microsoft.CodeAnalysis.VisualBasic
 Imports Microsoft.CodeAnalysis.VisualBasic.Syntax
 Imports Microsoft.CodeAnalysis.Diagnostics
 Imports System.Linq
+Imports System.Runtime.CompilerServices
 'Imports System.Text.RegularExpressions
 
 Public Module VBGeneratedCodeAnalysisExtensions

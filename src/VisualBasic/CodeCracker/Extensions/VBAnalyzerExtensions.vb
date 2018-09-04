@@ -1,4 +1,5 @@
 ﻿Imports System
+Imports System.Runtime.CompilerServices
 Imports Microsoft.CodeAnalysis
 Imports Microsoft.CodeAnalysis.Diagnostics
 Imports Microsoft.CodeAnalysis.VisualBasic
