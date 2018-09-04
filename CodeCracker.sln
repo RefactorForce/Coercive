@@ -23,36 +23,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCracker.Test.Common", "
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CodeCracker.Test", "test\VisualBasic\CodeCracker.Test\CodeCracker.Test.vbproj", "{5399E7A8-F8F1-4F2E-A5D2-9C96F3DD2A2D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A26BEB5D-9C92-4F60-9789-563A327605C3}"
-	ProjectSection(SolutionItems) = preProject
-		src\CodeCracker.nuspec = src\CodeCracker.nuspec
-		nuget.config = nuget.config
-		.nuget\packages.config = .nuget\packages.config
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Solution Items", ".Solution Items", "{E1B8ADBF-3442-4EF3-8C6B-146B576340E9}"
 	ProjectSection(SolutionItems) = preProject
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
 		CHANGELOG.md = CHANGELOG.md
 		README.md = README.md
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{234973E7-794D-4BC5-8D5F-FB98D8BFA967}"
-	ProjectSection(SolutionItems) = preProject
-		appveyor.yml = appveyor.yml
-		build.ps1 = build.ps1
-		psakefile.ps1 = psakefile.ps1
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C5584F20-6E93-4D2D-B6F0-141B977AFC9F}"
-	ProjectSection(SolutionItems) = preProject
-		test\CSharp\AnalyzeCecil.ps1 = test\CSharp\AnalyzeCecil.ps1
-		test\CSharp\AnalyzeCoreFx.ps1 = test\CSharp\AnalyzeCoreFx.ps1
-		test\CSharp\AnalyzeRoslyn.ps1 = test\CSharp\AnalyzeRoslyn.ps1
-		runTestsCS.ps1 = runTestsCS.ps1
-		runTestsVB.ps1 = runTestsVB.ps1
-		test.ps1 = test.ps1
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCracker.Vsix.Debug", "src\VisualBasic\CodeCracker.Vsix\CodeCracker.Vsix.Debug.csproj", "{7F08D429-91E1-4B47-B3B2-A98754C8DFA7}"
@@ -146,8 +122,6 @@ Global
 		{41FA4971-D354-4647-A269-4A886DA2EF4C} = {11473308-7FD9-43CE-84CE-5912EEFDD1DC}
 		{B7B513B4-0317-4F32-B560-4BFC4FAEC239} = {11473308-7FD9-43CE-84CE-5912EEFDD1DC}
 		{5399E7A8-F8F1-4F2E-A5D2-9C96F3DD2A2D} = {11473308-7FD9-43CE-84CE-5912EEFDD1DC}
-		{234973E7-794D-4BC5-8D5F-FB98D8BFA967} = {E1B8ADBF-3442-4EF3-8C6B-146B576340E9}
-		{C5584F20-6E93-4D2D-B6F0-141B977AFC9F} = {E1B8ADBF-3442-4EF3-8C6B-146B576340E9}
 		{7F08D429-91E1-4B47-B3B2-A98754C8DFA7} = {11473308-7FD9-43CE-84CE-5912EEFDD1DC}
 		{E3B0C133-B97E-46B9-809D-16BB762EF74F} = {90D62FF0-A374-4C14-B827-1FFA8E384E18}
 	EndGlobalSection
